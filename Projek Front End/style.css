@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Tambahkan CSS untuk container */
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Tambahkan CSS untuk top-wrapper */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../Proyek\ Website/gambar/BG.jpg);
+  background-size: cover;
+  color: rgb(7, 7, 7);
+  text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 35px;
+    margin-bottom: 3px;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(89, 176, 194, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+.header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  /* Tambahkan CSS untuk header-right pada saat ditunjuk kursor */
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* Tambahkan CSS untuk tag <a> didalam header-right */
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(12, 12, 12);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
