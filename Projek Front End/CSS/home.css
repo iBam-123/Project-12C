@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+a {
+    text-decoration: none;
+} 
+h1 {
+    font-family: "Baby School";
+}
+h2 {
+    font-family: "Baby School";
+}
+.fa {
+    color: white;
+    height: 20px;
+}
+.clear {
+    clear: left;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.title-content h2 {
+    font-size: 36px;
+    text-align: Center;
+    color: black;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #EC5858;
+}
+.title-content p {
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.news {
+    background-color: #fff78F;
+    padding: 5%;
+    height: auto;
+    padding-bottom: 150px;
+    margin-top: 50px;
+}
+.news-content {
+    float: left;
+    width: 50%;
+    padding: 0% 1%;
+
+}
+.news-content img {
+    width: 100%;
+    float: left;
+    height: auto;
+    border-radius: 10px;
+    background-size: cover;
+}
+.news-content p {
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+.read {
+    float: left;
+    border: 3px solid #EC5858;
+    border-radius: 30px;
+    padding: 15px;
+    color: black;
+}
+.read:hover {
+    background-color: #EC5858;
+}
+.read:active {
+    position: relative;
+    top: 7px;
+}
+.read p {
+    width: 100%;
+    font-weight: bold;
+}
+.join {
+    margin-top: 50px;
+    background-image: url('../Asset/daftar.jpg');
+    background-size: cover;
+    padding: 75px 0px 150px 0px;
+    text-align: right;
+}
+.join-us {
+    text-align: center;
+}
+.daftar {
+    background: #F73F52;
+    height: auto;
+    width: 30%;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+    float: left;
+    margin: 0% 35%;
+}
+.daftarkan {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: whitesmoke;
+}
+.daftarkan:hover {
+    cursor: pointer;
+}
+.daftarkan:active {
+    position: relative;
+    top: 7px;
+}
+footer {
+    background-color: #082032;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    padding: 15px;
+}
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    bottom: 0px;
+    margin-top: 50px;
+}
