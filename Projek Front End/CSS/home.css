@@ -119,12 +119,97 @@ h2 {
     position: relative;
     top: 7px;
 }
+
+body {
+    margin: 0px;
+    font-family: poppins;    
+}
+
+.main {
+    height: 500px;
+}
+
 footer {
     background-color: #082032;
+    color: white;
     width: 100%;
-    height: auto;
+    height: 450px;
+    box-sizing: border-box;
+    
+}
+
+.footer {
+    margin: auto;
+}
+
+
+.footer-logo {
+    margin-right: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-team {
+    margin-top: 32px;
+    margin-right: 80px;
+}
+
+ .footer-team ul {
+    list-style: none;
+    line-height: 23px;
+ }
+
+ .footer-team li {
+    margin-bottom: 8px;
+ }
+
+.footer-team a {
+    color: white;
+    margin-right: 8px;
+}
+
+.footer-team a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+ .footer-list {
+     margin-top: 32px;
+     margin-right: 80px;
+ }
+
+.footer-list ul {
+    display: flex;
+}
+
+.footer-list li {
+    margin-right: 30px;
+    margin-top: 5px;
+    list-style: none;
+    
+}
+
+.footer-list li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list li a:hover {
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    bottom: 7px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    color: white;
     bottom: 0px;
-    padding: 15px;
+    margin-top: 50px;
+}
+
 }
 .copyright {
     text-align: center;
