@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+a {
+    text-decoration: none;
+} 
+h1 {
+    font-family: "Baby School";
+}
+h2 {
+    font-family: "Baby School";
+}
+.fa {
+    color: white;
+    height: 20px;
+}
+.clear {
+    clear: left;
+}
+.menu-icon {
+    display: none;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('../Asset/BG.jpg');
+  background-size: cover;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  height: 600px;
+}
+.top-wrapper h1 {
+    font-size: 48px;
+    margin-bottom: 3px;
+    font-family: "Baby School";
+}
+.top-wrapper h2 {
+    font-size: 36px;
+    color: black;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(89, 176, 194, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+}
+.header-right a {
+    line-height: 80px;
+    padding: 0 25px;
+    color: rgb(12, 12, 12);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-weight: bold;
+  }
+.navbar-left {
+    float: left;
+    line-height: 80px;
+    margin-top: 10px;
+}
+.navbar-left img {
+    height: 60px;
+    top: 0px;
+}
+.login {
+    background-color: #fff78F ;
+}
+.register {
+    background-color: #EC5858;
+}
+.title-content h2 {
+    font-size: 36px;
+    text-align: Center;
+    color: black;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #EC5858;
+}
+.title-content p {
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+.course{
+    height: 100%;
+    margin-top: 50px;
+    padding: 30px 0px 20px 0px;
+    background-color: #fff78F;
+}
+.train{
+  width: 100%;
+  height: 100%;
+  font-family: fantasy;
+  font-size: 15px;
+  padding: 0% 5%;
+  position: relative;
+}
+
+.train p{
+  position: absolute;
+  top: 90px;
+  width: 90%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  font-family: initial;
+  font-weight: bold;
+}
+.komoditas{
+    height: 100%;
+    background-color: #fff78F;
+    margin-top: 50px;
+    padding: 30px 0px 20px 0px;
+}
+.komo{
+  width: 100%;
+  height: 100%;
+  font-family: fantasy;
+  font-size: 15px;
+  margin: 10px 10px;
+  padding: 0% 5%;
+  position: relative;
+}
+.komo p{
+  position: absolute;
+  top: 90px;
+  width: 90%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 30px;
+  font-family: initial;
+  font-weight: bold;
+}
+.news {
+    background-color: #fff78F;
+    padding: 5%;
+    height: auto;
+    padding-bottom: 150px;
+    margin-top: 50px;
+}
+.news-content {
+    float: left;
+    width: 50%;
+    padding: 0% 1%;
+
+}
+.news-content img {
+    width: 100%;
+    float: left;
+    height: auto;
+    border-radius: 10px;
+    background-size: cover;
+}
+.news-content p {
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+.read {
+    float: left;
+    border: 3px solid #EC5858;
+    border-radius: 30px;
+    padding: 15px;
+    color: black;
+}
+.read:hover {
+    background-color: #EC5858;
+}
+.read:active {
+    position: relative;
+    top: 7px;
+}
+.read p {
+    width: 100%;
+    font-weight: bold;
+}
+.trainer{
+    margin-bottom: 50px;
+    height: 100%;
+    display: flex;
+    background-color: #fff78F;
+    margin-top: 50px;
+    padding: 30px 0px 20px 0px;
+}
+.posisi{
+    float: left;
+    width: 33.33%;
+}
+.Profil{
+    width: 100%;
+    font-family: fantasy;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    padding: 0% 5%;
+}
+.profil p{
+    text-align: center;
+}
+.trainer-profil img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.trainer-profil img:hover {
+    padding: 10px ;
+    cursor: pointer;
+}
+.trainer-profil img:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.kerjasama {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fff78F;
+    padding: 50px;
+}
+.instansi {
+    float: left;
+    width: 25%;
+    height: 150px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.instansi img {
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+.join {
+    margin-top: 50px;
+    background-image: url('../Asset/daftar.jpg');
+    background-size: cover;
+    padding: 75px 0px 150px 0px;
+    text-align: right;
+}
+.join-us {
+    text-align: center;
+}
+.daftar {
+    background: #F73F52;
+    width: 30%;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+    float: left;
+    margin: 0% 35%;
+}
+.daftarkan {
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: whitesmoke;
+}
+.daftarkan:hover {
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+}
+.daftarkan:active {
+    position: relative;
+    top: 7px;
+}
+body {
+    margin: 0px;
+    font-family: poppins;    
+}
+footer {
+    background-color: #082032;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    height: auto;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    bottom: 0px;
+}
+.footer-contents {
+    width: 25%;
+    float: left;
+}
+.footer-contents span {
+    font-size: 28px;
+    color: #EC5858;
+    margin-right: 10px;
+}
+.footer-contents span:hover {
+    cursor: pointer;
+}
+.footer-contents p {
+    font-size: 16px;
+    font-weight: inherit;
+}
+.footer-logo {
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin-top: 20px;
+}
+.footer-logo p {
+    font-size: 16px;
+    font-weight: normal;
+}
+.footer-team {
+    margin-top: 32px;
+}
+.footer-team ul {
+    list-style: none;
+    line-height: 23px;
+    font-size: 20px;
+}
+.footer-team li {
+    margin-bottom: 8px;
+ }
+.footer-team a {
+    color: white;
+    margin-right: 8px;
+}
+.footer-team a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-list {
+    width: 100%;
+    margin-top: 32px;
+}
+.footer-list h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-list li {
+    margin-right: 30px;
+    margin-top: 5px;
+    list-style: none; 
+    border-bottom: 2px solid white;
+    padding-top: 2px;
+}
+.footer-list li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.footer-list li a:hover {
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    bottom: 7px;
+}
+.inputan {
+    height: 50px;
+    width: 90%;
+    border: 3px solid #EC5858;
+    border-radius: 10px;
+    color:#EC5858;
+}
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    bottom: 0px;
+    margin-top: 50px;
+}
+
